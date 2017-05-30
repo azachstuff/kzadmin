@@ -1,0 +1,10 @@
+from os.path import dirname, abspath
+
+# preload_app = True
+bind = "unix:/tmp/kzadmin.sock"
+workers = 5
+worker_class = 'gevent'
+max_requests = 2048
+max_requests_jitter = 128
+errorlog = 'log/gunicorn.error.log'
+acdesslog = 'log/gunicorn.access.log'
