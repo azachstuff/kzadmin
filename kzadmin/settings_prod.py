@@ -10,3 +10,4 @@ DATABASES = {
 }
 
 ALLOWED_HOSTS = ['admin.kaza.live']
+STATIC_URL = '/public/'
